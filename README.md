@@ -7,7 +7,10 @@ Theorem in the form of the equation `x^n + y^n = z^n`, where `n > 2`. The progra
 ## How to Run the Program
 1. Clone the repository to your local machine.
 
-git clone 
+HTTPS: https://github.com/prithukathet/SoftwareEngineeringAssignment.git
+
+SSH : git@github.com:prithukathet/SoftwareEngineeringAssignment.git
+
 2. Open the project in IntelliJ IDEA or eclipse.
 3. Compile and run the program from the `FermatTheoremNearMisses` class or run using the executable jar file. 
 4. Follow the on-screen instructions to input values for `n` and `k`.
