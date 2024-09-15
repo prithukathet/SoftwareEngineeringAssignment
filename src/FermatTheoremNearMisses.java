@@ -6,7 +6,7 @@
  * External Files Created: None
  *
  * Programmers: Prithu Kathet, Travis Lester
- * Email: prithukathet@lewisu.edu , travislester@lewisu.edu
+ * Email: prithukathet@lewisu.edu , travisllester@lewisu.edu
  *
  * Course: Software Engineering, FA24-CPSC-60500-002
  * Instructor: Fadi Wedyan
