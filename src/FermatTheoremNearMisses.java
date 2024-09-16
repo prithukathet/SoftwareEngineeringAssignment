@@ -35,7 +35,6 @@
         boolean validInput = false;
         int n = 0;
 
-        // TODO: Special break character to end the program or just use Ctrl-C/X
         while(!validInput) {
             // Prompting the user to enter a value of exponent (n) greater than 2 and less than 12
             System.out.println("Enter a value of exponent greater than 2 and less than 12");
@@ -53,7 +52,6 @@
         }
 
 
-        // TODO: Special break character to end the program or just use Ctrl-C/X
         validInput = false;
         int k = 0;
         while(!validInput) {
