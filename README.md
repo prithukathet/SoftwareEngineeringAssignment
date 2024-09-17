@@ -26,7 +26,7 @@ SSH : git@github.com:prithukathet/SoftwareEngineeringAssignment.git
 
 ## How to Use Jar File
 - Utilize BASH
-    - java -jar softwareengineeringassignment.jar
+    - java -jar .\softwareengineeringassignment.jar
     * Ensure Java is installed and added to your system's path
 
 ## Author
