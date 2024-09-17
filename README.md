@@ -29,6 +29,6 @@ SSH : git@github.com:prithukathet/SoftwareEngineeringAssignment.git
     - java -jar .\softwareengineeringassignment.jar
     * Ensure Java is installed and added to your system's path
 
-## Author
+## Authors
 - Prithu Kathet
 - Travis Lester
