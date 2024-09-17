@@ -18,6 +18,16 @@ SSH : git@github.com:prithukathet/SoftwareEngineeringAssignment.git
 ## Requirements
 - Java 8 or higher.
 - No external libraries are needed.
+- Java Runtime Environment or Java Development Kit (JDK) 
+
+## Jar File
+- A Jar file is a package file format used to distribute Java applications or libraries. It combines mulitple .class files, resources, and metadata into a single, compressed file. 
+- Jar files make it easy to share or execute Java programs across different environments. 
+
+## How to Use Jar File
+- Utilize BASH
+    - java -jar .\softwareengineeringassignment.jar
+    * Ensure Java is installed and added to your system's path
 
 ## Author
 - Prithu Kathet

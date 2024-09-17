@@ -1,0 +1,100 @@
+!SESSION 2024-09-16 17:27:24.959 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=22.0.2
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-09-16 17:27:25.982
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-09-16 17:27:37.347
+!MESSAGE Logback config file: D:\Lewis University\Software Engineering\Assign 1\SoftwareEngineeringAssignment\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-09-16 17:27:40.021
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\dooby'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.operations 2 0 2024-09-16 17:30:59.851
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10001 2024-09-16 17:30:59.852
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2024-09-16 17:30:59.852
+!MESSAGE "Apache Commons Codec" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2024-09-16 17:30:59.852
+!MESSAGE "slf4j-api" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2024-09-16 17:30:59.852
+!MESSAGE "jna" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2024-09-16 17:30:59.852
+!MESSAGE "OSGi System Bundle" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10007 2024-09-16 17:30:59.852
+!MESSAGE "Apache Commons Codec" cannot be fully uninstalled because other installed software requires it.  The parts that are not required will be uninstalled.
+
+!ENTRY org.eclipse.equinox.p2.operations 2 0 2024-09-16 17:30:59.859
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10001 2024-09-16 17:30:59.859
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2024-09-16 17:30:59.859
+!MESSAGE "Apache Commons Codec" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2024-09-16 17:30:59.859
+!MESSAGE "slf4j-api" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2024-09-16 17:30:59.859
+!MESSAGE "jna" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2024-09-16 17:30:59.859
+!MESSAGE "OSGi System Bundle" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10007 2024-09-16 17:30:59.859
+!MESSAGE "Apache Commons Codec" cannot be fully uninstalled because other installed software requires it.  The parts that are not required will be uninstalled.
+!SESSION 2024-09-16 17:31:44.030 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=22.0.2
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-09-16 17:31:45.859
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-09-16 17:31:50.410
+!MESSAGE Logback config file: D:\Lewis University\Software Engineering\Assign 1\SoftwareEngineeringAssignment\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-09-16 17:31:52.611
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\dooby'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 4 0 2024-09-16 17:40:11.231
+!MESSAGE ExceptionInInitializerError
+!STACK 0
+java.lang.ExceptionInInitializerError
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.<clinit>(SSLConnectionSocketFactory.java:151)
+	at org.eclipse.jgit.transport.http.apache.HttpClientConnectionFactory$HttpClientSession.configure(HttpClientConnectionFactory.java:81)
+	at org.eclipse.jgit.transport.http.apache.HttpClientConnectionFactory$HttpClientSession.configure(HttpClientConnectionFactory.java:1)
+	at org.eclipse.jgit.transport.TransportHttp.httpOpen(TransportHttp.java:1062)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:651)
+	at org.eclipse.jgit.transport.TransportHttp.openFetch(TransportHttp.java:465)
+	at org.eclipse.jgit.api.LsRemoteCommand.execute(LsRemoteCommand.java:170)
+	at org.eclipse.jgit.api.LsRemoteCommand.call(LsRemoteCommand.java:131)
+	at org.eclipse.egit.core.op.ListRemoteOperation.run(ListRemoteOperation.java:116)
+	at org.eclipse.egit.ui.internal.clone.SourceBranchPage$9.run(SourceBranchPage.java:377)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+Caused by: org.apache.commons.logging.LogConfigurationException: The chosen LogFactory implementation does not extend LogFactory. Please check your configuration. (Caused by java.lang.ClassCastException: The application has specified that a custom LogFactory implementation should be used but Class 'org.apache.commons.logging.impl.LogFactoryImpl' cannot be converted to 'org.apache.commons.logging.LogFactory'. The conflict is caused by the presence of multiple LogFactory classes in incompatible classloaders. Background can be found in http://commons.apache.org/logging/tech.html. If you have not explicitly specified a custom LogFactory then it is likely that the container has set one without your knowledge. In this case, consider using the commons-logging-adapters.jar file or specifying the standard LogFactory from the command line. Help can be found @http://commons.apache.org/logging/troubleshooting.html.)
+	at org.apache.commons.logging.LogFactory.createFactory(LogFactory.java:1154)
+	at org.apache.commons.logging.LogFactory$2.run(LogFactory.java:960)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:319)
+	at org.apache.commons.logging.LogFactory.newFactory(LogFactory.java:957)
+	at org.apache.commons.logging.LogFactory.getFactory(LogFactory.java:624)
+	at org.apache.commons.logging.LogFactory.getLog(LogFactory.java:655)
+	at org.apache.http.conn.ssl.AbstractVerifier.<init>(AbstractVerifier.java:61)
+	at org.apache.http.conn.ssl.AllowAllHostnameVerifier.<init>(AllowAllHostnameVerifier.java:44)
+	at org.apache.http.conn.ssl.AllowAllHostnameVerifier.<clinit>(AllowAllHostnameVerifier.java:46)
+	... 11 more
+Caused by: java.lang.ClassCastException: The application has specified that a custom LogFactory implementation should be used but Class 'org.apache.commons.logging.impl.LogFactoryImpl' cannot be converted to 'org.apache.commons.logging.LogFactory'. The conflict is caused by the presence of multiple LogFactory classes in incompatible classloaders. Background can be found in http://commons.apache.org/logging/tech.html. If you have not explicitly specified a custom LogFactory then it is likely that the container has set one without your knowledge. In this case, consider using the commons-logging-adapters.jar file or specifying the standard LogFactory from the command line. Help can be found @http://commons.apache.org/logging/troubleshooting.html.
+	at org.apache.commons.logging.LogFactory.createFactory(LogFactory.java:1108)
+	... 19 more
