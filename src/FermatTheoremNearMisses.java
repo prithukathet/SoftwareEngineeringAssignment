@@ -122,9 +122,9 @@ public class FermatTheoremNearMisses {
 
                     // prints the current values
                     System.out.println("[New Smallest Relative Miss Found!]");
-                    System.out.printf("Relative Miss: %.8f\n", relativeMiss);
+                    System.out.printf("Relative Miss: %.7f\n", relativeMiss);
                     System.out.printf("Current x: %d, y: %d, z: %d\n", bestX, bestY, bestZ);
-                    System.out.printf("Actual miss: %.8f\n", miss);
+                    System.out.println("Actual miss: " + miss);
                     System.out.println("--------------------------------");
                 }
             }
@@ -134,7 +134,7 @@ public class FermatTheoremNearMisses {
         // bestZ should not be 0)
         if (bestX != 0 || bestY != 0 || bestZ != 0) {
             // Print the smallest relative miss and the corresponding values of x, y, and z
-            System.out.println("Smallest relative miss: " + minRelativeMiss);
+            System.out.printf("Smallest relative miss: %.7f\n", minRelativeMiss);
             System.out.println("Values: x = " + bestX + ", y = " + bestY + ", z = " + bestZ);
             System.out.println("Actual miss: " + bestMiss);
         } else {
